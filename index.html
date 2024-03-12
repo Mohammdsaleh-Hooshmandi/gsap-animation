@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- All meta tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- gsap CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+		<!-- Styles Source -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- Scirpt Sourse -->
+		<script defer src="script.js"></script>
+
+		<!-- Page Title -->
+		<title>Home Page</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<img
+					src="assets/barrel.svg"
+					alt="barrel img"
+					class="navbar__img"
+				/>
+
+				<ul class="navbar__links-wrapper">
+					<li>
+						<a href="#" class="navbar__link">home</a>
+					</li>
+					<li>
+						<a href="#" class="navbar__link">wines</a>
+					</li>
+					<li>
+						<a href="#" class="navbar__link">contact</a>
+					</li>
+				</ul>
+
+				<img src="assets/leaf.svg" alt="leaf img" class="navbar__img" />
+			</nav>
+		</header>
+
+		<main>
+			<section id="home" class="home">
+				<div class="overlay"></div>
+
+				<video autoplay loop muted>
+					<source src="assets/grappe-video.mp4" type="video/mp4" />
+				</video>
+
+				<div class="home__contents-wrapper">
+					<h1 class="home__title">Exceptional vineyards.</h1>
+
+					<div class="home__vertical-line"></div>
+
+					<img
+						src="assets/grape.svg"
+						alt="grape img"
+						class="home__img"
+					/>
+
+					<button type="button" class="home__btn">DISCOVER</button>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
